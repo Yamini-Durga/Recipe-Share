@@ -3,30 +3,34 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "json:server": "json-server --watch src/app/mock/recipeApi.json"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~11.1.0",
-    "@angular/common": "~11.1.0",
-    "@angular/compiler": "~11.1.0",
-    "@angular/core": "~11.1.0",
-    "@angular/forms": "~11.1.0",
-    "@angular/platform-browser": "~11.1.0",
-    "@angular/platform-browser-dynamic": "~11.1.0",
-    "@angular/router": "~11.1.0",
+    "@angular/animations": "~12.2.16",
+    "@angular/cdk": "^12.2.13",
+    "@angular/common": "~12.2.16",
+    "@angular/compiler": "~12.2.16",
+    "@angular/core": "~12.2.16",
+    "@angular/forms": "~12.2.16",
+    "@angular/material": "^12.2.13",
+    "@angular/platform-browser": "~12.2.16",
+    "@angular/platform-browser-dynamic": "~12.2.16",
+    "@angular/router": "~12.2.16",
+    "json-server": "^0.17.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.3"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1101.0",
-    "@angular/cli": "~11.1.0",
-    "@angular/compiler-cli": "~11.1.0",
+    "@angular/cli": "~12.2.17",
+    "@angular/compiler-cli": "~12.2.16",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
@@ -40,6 +44,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.1.2"
+    "typescript": "~4.3.5"
   }
 }

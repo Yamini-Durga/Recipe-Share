@@ -1,0 +1,152 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Aloo fry",
+      "imageUrl": "https://media.istockphoto.com/photos/indian-food-bombay-potatoes-picture-id936421082?b=1&k=20&m=936421082&s=170667a&w=0&h=YQIAkM9aSNW10NQv5PFI7eIoWr6aptE4KyIdUikwyQM=",
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "quantity": "5"
+        },
+        {
+          "name": "garam masala",
+          "quantity": "1 table spoon"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/2 table spoon"
+        },
+        {
+          "name": "chilli",
+          "quantity": "3"
+        },
+        {
+          "name": "curry leaves",
+          "quantity": "5"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    },
+    {
+      "id": "2",
+      "name": "Barbecue chicken",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/06/01/20/25/chicken-3447081_1280.jpg",
+      "ingredients": [
+        {
+          "name": "chicken legs",
+          "quantity": "4"
+        },
+        {
+          "name": "chicken masala",
+          "quantity": "1 table spoon"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/2 table spoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": "1/4 table spoon"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    },
+    {
+      "id": "3",
+      "name": "Egg omelete",
+      "imageUrl": "https://media.istockphoto.com/photos/plain-omelette-picture-id478247408?k=20&m=478247408&s=612x612&w=0&h=KKQ25VGxCjpLF-1fnR5Qbf6KO9tzmzIwQ4ZNTIQ_8to=",
+      "ingredients": [
+        {
+          "name": "eggs",
+          "quantity": "2"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/2 table spoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": "1/4 table spoon"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    },
+    {
+      "id": "4",
+      "name": "French fries",
+      "imageUrl": "https://media.istockphoto.com/photos/crispy-honey-chilli-potatoes-are-a-super-addictive-snack-from-indian-picture-id1251686748?b=1&k=20&m=1251686748&s=170667a&w=0&h=RWrZJOPnQGLNJHW0VjcsTW9AN4MDA0P-k2VDp9z_AIg=",
+      "ingredients": [
+        {
+          "name": "potatoes",
+          "quantity": "3"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/2 table spoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": "1/4 table spoon"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    },
+    {
+      "id": "5",
+      "name": "Maggi masala",
+      "imageUrl": "https://media.istockphoto.com/photos/cheese-masala-maggi-homemade-noodles-picture-id1159786351?k=20&m=1159786351&s=612x612&w=0&h=ciYi0rKZEt7UpvG94tr4R6eHgP2S_FuLbY1SF6KTB7E=",
+      "ingredients": [
+        {
+          "name": "maggi",
+          "quantity": "1 pack"
+        },
+        {
+          "name": "salt",
+          "quantity": "1/4 table spoon"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    },
+    {
+      "id": "6",
+      "name": "Crispy chicken popcorn",
+      "imageUrl": "https://media.istockphoto.com/photos/homemade-crispy-chicken-popcorn-kfc-style-popcorn-chicken-recipe-picture-id1281859992?b=1&k=20&m=1281859992&s=170667a&w=0&h=OQpVybXWe3jM4LOvzTy30j6RP6xDVBCsHyKKXBBf92M=",
+      "ingredients": [
+        {
+          "name": "chicken",
+          "quantity": "1/2 kg"
+        },
+        {
+          "name": "salt",
+          "quantity": "1 table spoon"
+        },
+        {
+          "name": "masala",
+          "quantity": "1/2 table spoon"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    },
+    {
+      "id": "7",
+      "name": "Fried fish",
+      "imageUrl": "https://media.istockphoto.com/photos/fish-fry-served-on-banana-leaf-picture-id620402520?k=20&m=620402520&s=612x612&w=0&h=o9DA4uxF8eWt9erW9e8oZfrRz5NbhbQM9p8qTGXVMJI=",
+      "ingredients": [
+        {
+          "name": "fish",
+          "quantity": "2"
+        },
+        {
+          "name": "salt",
+          "quantity": "1 table spoon"
+        },
+        {
+          "name": "masala",
+          "quantity": "1/2 table spoon"
+        }
+      ],
+      "instructions": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet magnam tempore eaque corporis rerum repudiandae maxime voluptatem minima beatae exercitationem! Nesciunt dolorem provident cum placeat deleniti magni, iusto officiis porro eos est earum. Perspiciatis, dignissimos sequi optio dolorum vel esse aliquam. A est maiores distinctio necessitatibus molestiae obcaecati ab exercitationem itaque ipsum voluptatibus aliquid reiciendis similique neque suscipit sunt eligendi inventore harum, laborum aperiam perspiciatis nesciunt? Harum porro blanditiis molestiae delectus repudiandae nesciunt, reprehenderit aspernatur minima laboriosam veniam alias non eaque laudantium libero velit fugit ratione laborum neque et deserunt! Quam saepe odit vero quia deleniti laudantium quis enim rerum voluptates dignissimos vitae, necessitatibus officiis voluptas, maxime optio assumenda illum fugiat alias! Velit similique tempora voluptatibus repellendus et harum sequi commodi incidunt fugiat veniam officiis itaque in quisquam, omnis aperiam ipsam, ducimus odio corrupti consequatur? Iure nam ea fugiat quia numquam, delectus unde ab? Recusandae aspernatur beatae eius quas velit! Ut nulla autem veritatis enim voluptates hic, voluptate voluptatibus modi quas perspiciatis corrupti architecto consectetur, temporibus consequuntur ea distinctio rem dolores rerum. Quis commodi itaque doloribus ipsa amet sunt, corrupti at similique placeat possimus minima, esse earum ullam consectetur nemo, maxime totam quidem accusamus suscipit inventore quod odio quibusdam eaque voluptatem! Vero similique porro ea nam excepturi at, ipsam deleniti, neque nobis accusantium quam iste ratione atque praesentium modi ab sint sunt illum odio. Voluptates, necessitatibus id? Odit, omnis aperiam quisquam neque eius illum quae reiciendis aliquid esse aut doloribus enim, ad inventore rerum nostrum libero accusamus autem ullam rem architecto quaerat cumque hic. Assumenda accusantium atque nesciunt expedita alias molestiae, laboriosam laborum neque, quod, voluptatem vitae illo magni aliquid. Quas tempore nostrum commodi eius delectus eveniet explicabo cupiditate. Porro, error. Earum dolores neque labore sapiente minima quo cupiditate, tempore similique facere unde deserunt vel consequuntur ratione ea reprehenderit adipisci."
+    }
+  ]
+}
