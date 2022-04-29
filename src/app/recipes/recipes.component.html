@@ -1,0 +1,23 @@
+<div class="recipe-container">
+    <div class="section-header">
+        <mat-form-field appearance="fill">
+            <mat-label>Alphabetical</mat-label>
+            <mat-select (selectionChange)="onSortSelected($event)">
+                <mat-option *ngFor="let option of sortOptions" [value]="option.value">
+                    {{ option.name }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div class="search-div">
+            <mat-form-field appearance="fill" class="search-mat-form">
+                <input matInput placeholder="Search" (keyup.enter)="onSearch()" #search style="max-width: 300px">
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="onSearch()">Search</button>
+            <button mat-raised-button color="primary" (click)="onReset()">Reset</button>
+        </div>
+    </div>
+    <div *ngFor="let recipe of recipes" class="recipe-list">
+        <app-recipes-item></app-recipes-item>
+    </div>
+    <h1 style="background:lightpink">Footer</h1>
+</div>

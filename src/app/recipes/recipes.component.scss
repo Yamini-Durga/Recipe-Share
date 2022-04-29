@@ -1,0 +1,32 @@
+.recipe-container{
+    margin-top: 10px;
+}
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.search-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-div button {
+    min-width: 120px !important;
+    font-size: 1.1em;
+    margin-top: -20px;
+    padding: 5px;
+    line-height: 43px;
+}
+
+.search-div button:last-of-type {
+    margin-left: -5px ;
+}
+
+.search-mat-form {
+    min-width: 300px !important;
+}
