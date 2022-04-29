@@ -1,0 +1,16 @@
+.container-item {
+    margin: 15px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-section {
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    background-color: aquamarine;
+}
