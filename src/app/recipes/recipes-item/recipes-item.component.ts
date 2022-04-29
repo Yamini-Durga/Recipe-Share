@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Recipe } from 'src/app/shared/models/recipe.model';
 
 @Component({
   selector: 'app-recipes-item',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recipes-item.component.scss']
 })
 export class RecipesItemComponent implements OnInit {
-  id = 1;
+  @Input() recipe: Recipe;
+  defaultImage = '/assets/placeholder.png';
   constructor() { }
 
   ngOnInit(): void {

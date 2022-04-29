@@ -26,12 +26,15 @@ const routes: Routes = [];
     MatInputModule,
     MatCardModule,
     MatFormFieldModule,
-    FlexLayoutModule ,
+    FlexLayoutModule,
     RouterModule.forChild(routes)
   ],
   exports: [
     RecipesComponent,
-    MatButtonModule
+    MatButtonModule,
+    MatInputModule,
+    MatCardModule,
+    MatFormFieldModule,
   ]
 })
 export class RecipesModule { }

@@ -1,5 +1,10 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { MatSelectChange } from '@angular/material/select';
+import { RecipeService } from '../services/recipe.service';
+import { AddRecipeComponent } from '../shared/components/add-recipe/add-recipe.component';
+import { RecipePramas } from '../shared/models/recipe-params';
+import { Recipe } from '../shared/models/recipe.model';
 
 @Component({
   selector: 'app-recipes',
@@ -11,20 +16,43 @@ export class RecipesComponent implements OnInit {
     { name: 'A - Z', value: 'asc' },
     { name: 'Z - A', value: 'desc' }
   ];
-  recipes = [1,2,3,4,5,6,7,8];
+  recipes: Recipe[];
+  recipePramas = new RecipePramas();
   @ViewChild('search') searchRef: ElementRef;
-  constructor() { }
+  
+  constructor(private recipeService: RecipeService, private dialog: MatDialog) { }
 
   ngOnInit(): void {
+    this.getAllRecipes();
   }
+
+  getAllRecipes(){
+    this.recipeService.getRecipes(this.recipePramas).subscribe(
+      (data) => {
+        this.recipes = data;
+      },
+      (error) => {
+        console.log(error);
+      }
+    )
+  }  
   onSortSelected(event: MatSelectChange){
-    console.log("Sort direction", event.value);
+    this.recipePramas.direction = event.value;
+    this.getAllRecipes();
   }
   onSearch() {
-    console.log('Search parameter', this.searchRef.nativeElement.value);
+    this.recipePramas.search = this.searchRef.nativeElement.value;
+    this.getAllRecipes();
   }
   onReset() {
     this.searchRef.nativeElement.value = '';
-    console.log('Reset parameter', this.searchRef.nativeElement.value);
+    this.recipePramas = new RecipePramas();
+    this.getAllRecipes();
+  }
+  onAddRecipe(){
+    const dialogRef = this.dialog.open(AddRecipeComponent);
+    dialogRef.afterClosed().subscribe(data => {
+      this.getAllRecipes();
+    })
   }
 }
