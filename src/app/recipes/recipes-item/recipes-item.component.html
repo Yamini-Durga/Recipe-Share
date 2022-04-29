@@ -1,8 +1,8 @@
 <mat-card class="recipe-card">
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-    <mat-card-title>Shiba Inu</mat-card-title>
+    <img mat-card-image src="{{recipe.imageUrl ? recipe.imageUrl : defaultImage}}" alt="{{recipe.name}}">
+    <mat-card-title>{{recipe.name}}</mat-card-title>
     <mat-card-actions>
-        <button mat-stroked-button class="btn-read-more" type="button" [routerLink]="[id]">Read
+        <button mat-stroked-button class="btn-read-more" type="button" [routerLink]="[recipe.id]">Read
             More...</button>
     </mat-card-actions>
 </mat-card>

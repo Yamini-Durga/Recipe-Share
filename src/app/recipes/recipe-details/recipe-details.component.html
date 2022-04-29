@@ -1,12 +1,15 @@
 <div class="container-item">
-    <div class="recipe-section">
-        <img src="" alt="recipe-image" />
+    <div class="recipe-section" *ngIf="recipe">
+        <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}" />
         <div class="recipe-title">
-            <h1>Recipe title</h1>
-            <ul *ngFor="let ingredient of ingredients">
-                <li>{{name}} - {{value}}</li>
+            <h1>{{recipe.name}}</h1>
+            <hr />
+            <h3>Ingredients</h3>
+            <ul *ngFor="let ingredient of recipe.ingredients">
+                <li>{{ingredient.name}} - {{ingredient.quantity}}</li>
             </ul>
-            <h1>Description</h1>
+            <h3>Instructions</h3>
+            <p>{{recipe.instructions}}</p>
         </div>
     </div>
 </div>

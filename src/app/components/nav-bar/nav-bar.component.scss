@@ -1,29 +1,10 @@
-.item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.logo {
-    max-width: 70px;
-    max-height: 50%;
-}
-
-.mat-toolbar-row, .mat-toolbar-single-row {
-    justify-content: space-between;
-}
 
 a {
+    font-size: 1.5em;
     text-decoration: none;
-    color:white;
+    color: white;
 }
-
-button {
-    font-size: 0.8em;
-    padding: 5px;
+.mat-toolbar-row, .mat-toolbar-single-row {
     justify-content: center;
-    width: 200px;
-    color: black;
-    background-color: whitesmoke;
 }
 
