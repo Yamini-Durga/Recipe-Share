@@ -2,3 +2,8 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-stroked-button:not(.mat-button-disabled) {
+    border-color: rgba(0, 0, 0, 0.865);
+    border-radius: 10px;
+}

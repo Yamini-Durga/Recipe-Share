@@ -12,12 +12,14 @@
             <mat-form-field appearance="fill" class="search-mat-form">
                 <input matInput placeholder="Search" (keyup.enter)="onSearch()" #search style="max-width: 300px">
             </mat-form-field>
-            <button mat-raised-button color="primary" (click)="onSearch()">Search</button>
-            <button mat-raised-button color="primary" (click)="onReset()">Reset</button>
+            <button mat-stroked-button (click)="onSearch()">Search</button>
+            <button mat-stroked-button (click)="onReset()">Reset</button>
         </div>
     </div>
-    <div *ngFor="let recipe of recipes" class="recipe-list">
-        <app-recipes-item></app-recipes-item>
+    <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center">
+        <div *ngFor="let recipe of recipes" class="recipes-list">
+            <app-recipes-item fxFlex></app-recipes-item>
+        </div>
     </div>
     <h1 style="background:lightpink">Footer</h1>
 </div>
