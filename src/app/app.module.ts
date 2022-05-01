@@ -10,6 +10,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { RecipesModule } from './recipes/recipes.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
+import { StoreModule } from '@ngrx/store';
+import { recipeReducer } from './recipes/recipe-details/store/recipeshare.reducers';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { EffectsModule } from '@ngrx/effects';
+import { RecipeDetailsEffects } from './recipes/recipe-details/store/recipeshare.effects';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { SharedModule } from './shared/shared.module';
     MatButtonModule,
     RecipesModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
+    StoreModule.forRoot({
+      recipe: recipeReducer
+    }),
+    StoreDevtoolsModule.instrument(),
+    EffectsModule.forRoot([RecipeDetailsEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]
