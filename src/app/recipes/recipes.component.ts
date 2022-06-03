@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { MatSelectChange } from '@angular/material/select';
+import { MatSelect, MatSelectChange } from '@angular/material/select';
 import { RecipeService } from '../services/recipe.service';
 import { AddRecipeComponent } from './add-recipe/add-recipe.component';
 import { RecipePramas } from '../models/recipe-params';
@@ -14,6 +14,7 @@ import {
 import { Observable } from 'rxjs';
 import { isAuthenticated } from '../auth/store/auth.selector';
 import { AuthService } from '../auth/auth.service';
+import { MatOption } from '@angular/material/core';
 
 @Component({
   selector: 'app-recipes',
@@ -30,6 +31,7 @@ export class RecipesComponent implements OnInit {
   @ViewChild('search') searchRef: ElementRef;
   isAuthenticated: Observable<boolean>;
   usertoken: string;
+  @ViewChild('matSelectRef') matSelectOptionRef: MatSelect;
 
   constructor(
     private recipeService: RecipeService,
@@ -77,6 +79,7 @@ export class RecipesComponent implements OnInit {
 
   onReset() {
     this.searchRef.nativeElement.value = '';
+    this.matSelectOptionRef.options.forEach((option: MatOption) => option.deselect());
     this.recipePramas = new RecipePramas();
     this.getAllRecipes();
   }

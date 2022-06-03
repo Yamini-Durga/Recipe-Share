@@ -2,7 +2,7 @@
     <div class="section-header">
         <mat-form-field appearance="fill">
             <mat-label>Alphabetical</mat-label>
-            <mat-select (selectionChange)="onSortSelected($event)">
+            <mat-select (selectionChange)="onSortSelected($event)" #matSelectRef>
                 <mat-option *ngFor="let option of sortOptions" [value]="option.value">
                     {{ option.name }}
                 </mat-option>
