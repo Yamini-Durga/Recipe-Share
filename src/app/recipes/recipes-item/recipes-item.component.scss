@@ -1,15 +1,14 @@
 .recipe-card {
-    max-width: 400px;
-    border-radius: 10px;
+  max-width: 400px;
+  max-height: 250px;
+  border-radius: 10px;
 }
 
 .btn-read-more {
-    min-width: 100%;
-    line-height: 50px;
+  min-width: 100%;
+  line-height: 40px;
 }
 
-button {
-    font-size: 1.3em;
-    border: 1px solid black;
+.mat-card-title {
+  font-size: 1rem;
 }
-

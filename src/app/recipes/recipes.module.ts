@@ -10,6 +10,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AddRecipeComponent } from './add-recipe/add-recipe.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { ReactiveFormsModule } from '@angular/forms';
+import { EditRecipeComponent } from './edit-recipe/edit-recipe.component';
 
 const routes: Routes = [];
 
@@ -17,7 +22,9 @@ const routes: Routes = [];
   declarations: [
     RecipesComponent,
     RecipesItemComponent,
-    RecipeDetailsComponent
+    RecipeDetailsComponent,
+    AddRecipeComponent,
+    EditRecipeComponent,
   ],
   imports: [
     CommonModule,
@@ -27,14 +34,16 @@ const routes: Routes = [];
     MatCardModule,
     MatFormFieldModule,
     FlexLayoutModule,
-    RouterModule.forChild(routes)
+    MatDialogModule,
+    MatIconModule,
+    ReactiveFormsModule,
+    RouterModule.forChild(routes),
   ],
   exports: [
-    RecipesComponent,
-    MatButtonModule,
     MatInputModule,
-    MatCardModule,
     MatFormFieldModule,
-  ]
+    MatCardModule,
+    ReactiveFormsModule,
+  ],
 })
-export class RecipesModule { }
+export class RecipesModule {}

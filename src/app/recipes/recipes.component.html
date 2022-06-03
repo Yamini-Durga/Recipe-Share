@@ -15,10 +15,12 @@
             <button mat-stroked-button (click)="onSearch()">Search</button>
             <button mat-stroked-button (click)="onReset()">Reset</button>
         </div>
-        <div>
-            <button mat-stroked-button (click)="onAddRecipe()">Add Recipe</button>
+        <div class="add-btn">
+            <button mat-stroked-button [disabled]="!(isAuthenticated | async)" (click)="onAddRecipe()">Add
+                Recipe</button>
         </div>
     </div>
+
     <div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="center center">
         <div *ngFor="let recipe of recipes" class="recipes-list">
             <app-recipes-item fxFlex [recipe]="recipe"></app-recipes-item>

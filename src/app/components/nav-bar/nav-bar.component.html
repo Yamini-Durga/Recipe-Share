@@ -1,5 +1,14 @@
-<mat-toolbar style="height:70px;" color="primary">
+<mat-toolbar>
     <div class="item">
         <a routerLink="/">Recipe Share</a>
+    </div>
+    <div class="item">
+        <a routerLink="/login" *ngIf="!(isAuthenticated | async)">Login</a>
+    </div>
+    <div class="item">
+        <a routerLink="/signup" *ngIf="!(isAuthenticated | async)">Signup</a>
+    </div>
+    <div class="item">
+        <a routerLink="/" *ngIf="(isAuthenticated | async)" (click)="onLogout()">Logout</a>
     </div>
 </mat-toolbar>

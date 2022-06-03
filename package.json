@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:app": "ng serve -o",
-    "start": "concurrently \"npm run json:server\" \"npm run start:app\"",
+    "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
