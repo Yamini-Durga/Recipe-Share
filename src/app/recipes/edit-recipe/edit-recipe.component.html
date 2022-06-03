@@ -1,0 +1,41 @@
+<h1 mat-dialog-title>Edit Recipe</h1>
+<div mat-dialog-content class="edit-dialog">
+    <form [formGroup]="recipeForm">
+        <mat-form-field appearance="fill" class="item">
+            <mat-label>Recipe name</mat-label>
+            <input type="text" formControlName="recipename" matInput>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="item">
+            <mat-label>Image Url</mat-label>
+            <input type="text" formControlName="imageurl" matInput>
+        </mat-form-field>
+        <div formGroupName="ingredient" class="ingredien-section">
+            <mat-form-field appearance="fill">
+                <mat-label>Ingredient name</mat-label>
+                <input type="text" matInput formControlName="name">
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Quantity</mat-label>
+                <input type="text" matInput formControlName="quantity">
+            </mat-form-field>
+            <button mat-mini-fab color="whitesmoke" style="margin-top:-16px;width:60px;height:50px;" type="button"
+                [disabled]="!recipeForm.get('ingredient').valid" (click)="onAddIngredient()">
+                <mat-icon>add</mat-icon>
+            </button>
+        </div>
+        <div>
+            <ul *ngFor="let ingredient of ingredients">
+                <li>{{ingredient.name}} - {{ingredient.quantity}}</li>
+            </ul>
+        </div>
+        <mat-form-field appearance="fill" class="item">
+            <mat-label>Instructions</mat-label>
+            <textarea matInput formControlName="instructions"></textarea>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions class="dialog-buttons">
+    <button mat-button mat-dialog-close cdkFocusInitial>Cancel</button>
+    <button mat-button mat-dialog-close type="submit" (click)="onUpdateRecipe()"
+        [disabled]="!recipeForm.valid">Update</button>
+</div>

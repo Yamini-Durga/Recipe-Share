@@ -1,0 +1,17 @@
+<mat-card class="signup-card">
+    <mat-card-title>Signup</mat-card-title>
+    <form class="auth-form" [formGroup]="signupForm" (ngSubmit)="onSignup()">
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input type="text" matInput formControlName="email">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Paasword</mat-label>
+            <input type="text" matInput formControlName="password">
+        </mat-form-field>
+        <mat-card-actions>
+            <button mat-stroked-button class="signup-btn" type="submit" [disabled]="!signupForm.valid">
+                Signup</button>
+        </mat-card-actions>
+    </form>
+</mat-card>

@@ -1,0 +1,26 @@
+h1 {
+  font-size: 2em;
+}
+
+.ingredien-section {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 100%;
+}
+
+.dialog-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dialog-buttons button {
+  width: 40%;
+  font-size: 1.1em;
+  border: 1px solid black;
+}

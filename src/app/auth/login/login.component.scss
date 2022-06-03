@@ -1,0 +1,29 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+input {
+  max-width: 500px;
+}
+
+.login-card {
+  border-radius: 10px;
+  position: fixed;
+  top: 30vh;
+  left: 35vw;
+  z-index: 99;
+  width: 350px;
+}
+
+.login-btn {
+  line-height: 40px;
+  width: 150px;
+}
+
+mat-card-actions {
+  align-self: flex-end;
+  margin-right: 5px;
+}
